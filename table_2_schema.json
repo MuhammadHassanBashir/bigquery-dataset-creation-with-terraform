@@ -1,0 +1,7 @@
+[
+    {"name": "column1", "type": "STRING"},
+    {"name": "column2", "type": "INTEGER"},
+    {"name": "column3", "type": "FLOAT"}
+]
+  
+  

@@ -1,0 +1,39 @@
+
+[
+    {
+      "name": "id",
+      "mode": "REQUIRED",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "jsonData",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "content",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "mimeType",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "uri",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    }
+  ]
